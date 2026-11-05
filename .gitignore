@@ -1,0 +1,14 @@
+# Credenciales y tokens: nunca al repositorio
+.env
+.tokens.json
+
+# Datos personales descargados
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store

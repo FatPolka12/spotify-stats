@@ -7,6 +7,8 @@ Envuelve las peticiones HTTP para:
 - convertir la respuesta JSON en diccionarios de Python.
 """
 
+from __future__ import annotations  # permite la sintaxis `dict | None` en Python 3.9
+
 import time
 
 import requests
